@@ -42,6 +42,12 @@
 │   ├── Day1
 │   │   ├── code.rs
 │   │   └── Day1.md
+│   ├── Day2
+│   │   ├── Struct.rs
+│   │   ├── Enum.rs
+│   │   ├── Collection.rs
+│   │   ├── test_Lib.rs
+│   │   └── Day2.md
 │   ├── main.rs
 │   └── numGuess.rs
 └── Cargo.toml
@@ -57,6 +63,13 @@
 - 所有权系统理解
 - 引用和借用
 - 字符串切片操作
+
+### Day2
+Rust数据结构学习，包括：
+- 结构体（Struct）定义与使用
+- 枚举（Enum）定义与模式匹配
+- 集合类型（Collections）：Vector、HashMap等
+- 模块系统和可见性控制
 
 ### 猜数字游戏
 一个完整的命令行猜数字游戏，展示了：
